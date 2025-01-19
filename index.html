@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To RiFaian</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('coverphoto.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3); /* 70% transparency */
+            z-index: -1;
+        }
+
+        h1, h3 {
+            color: #ccc; /* Lighter color for the text */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            padding: 10px 10px;
+            color: white;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin: 10px  10px;
+        }
+
+        .shop button {
+            padding: 10px 20px;
+            background-color: black;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+			text-decoration: none;
+        }
+		.register {
+            margin-top: 30px;
+			position:fixed;
+            bottom:20px;
+		    right:200px;
+        }
+
+		
+		.register button {
+            padding: 10px 20px;
+            background-color: black;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+			text-decoration: none;
+        }
+		
+		.shop{
+		position:fixed;
+        bottom:20px;
+		left:900px;
+		}
+
+        .shop button:hover {
+            background-color: #ff6666;
+        }
+
+        .register button:hover {
+            background-color: #ff6666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Welcome to Our Online Store</h1>
+            <p>Your one-stop destination for premium fashion. Explore our collections for Women, Men, and Kids, featuring the latest trends and styles.</p>
+        </div>
+	
+        <!-- Register Now Section -->
+        <div class="register">
+            <button><a href="main.html">Register Now</a></button>
+        </div>
+ <!-- Shop Now Section -->
+        <div class="shop">
+            <button><a href="main2.html">Shop Now</a></button>
+
+        </div>		
+		
+	</body>
+</html>
